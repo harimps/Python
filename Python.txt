@@ -1,0 +1,679 @@
+* Object oriented.
+* it is free
+* Portable 
+* Dynamic Typing
+* Strongly Typed
+* Automatci Memory Management
+* Built in Object Types
+* Built in Tools
+* Library Utilities/tools(networking, Webb, Database..)
+* Easy to Learn	
+
+name= 'Hari prasad'
+number = 10
+print("Name is : ", name)
+print(type(name))
+print(id(number))
+print(id(name))
+print("number is : ", number)
+dir(name)
+name.upper()
+name.title()
+name.lower()
+name.swapcase()
+name.rjust(80)
+name.center(80)
+name.ljust(80,'*')
+name.rjust(80,'*')
+name.center(80,'*')
+name.isupper()
+name.islower()
+name.isalpha()
+name[0]
+name[1:3]
+name[1:3]
+name[0:-1:2]
+
+
+name2 = 'Engagement Director, Oracle Retail'
+alist = name2.split()
+name2.split(' ')
+" ".join(alist)
+type(alist)
+
+name= 'HAri prasad'
+number = 10
+print("Name is : ", name)
+print(type(name))
+print(id(number))
+print(id(name))
+print("number is : ", number)
+dir(name)
+name.upper()
+name.title()
+name.lower()
+name.swapcase()
+name.rjust(80)
+name.center(80)
+name.ljust(80,'*')
+name.rjust(80,'*')
+name.center(80,'*')
+name.isupper()
+name.islower()
+name.isalpha()
+name[0]
+name[1:3]
+name[0:-1:2]
+name1 = 'Sai'
+
+name2 = 'Engagement Director, Oracle Retail'
+alist = name2.split()
+name2.split(' ')
+" ".join(alist)
+type(alist)
+alist
+" ".join(alist)
+
+name3  = '                 Python               '
+name3.lstrip()
+name3.rstrip()
+name3.strip()
+
+#number4 = input('enter the number - ')
+
+Print("Language:\n\t Python\n\tRuby\n")
+
+#repitation operator
+
+print(name*5)
+
+#in and not in operator membership operators
+
+print('H' in name)
+print('p' not in name)
+
+print(name.startswith('H'))
+print(name.endswith('ad'))
+
+Working with numbers:
+****************
+number = 100
+type(number)
+
+#numbers are immutable
+number = number+1
+
+#numbers are immutable
+number = number+1
+id(number)
+number +=3 
+print(number)
+
+number = 0x10
+print(number)
+number = 0b1010
+print(number)
+number = 0xff
+print(number)
+
+name2 = 'Engagement Director, Oracle Retail'
+alist = name2.split()
+name2.split(' ')
+" ".join(alist)
+type(alist)
+alist
+" ".join(alist)
+
+name3  = '                 Python               '
+name3.lstrip()
+name3.rstrip()
+name3.strip()
+
+#number4 = input('enter the number - ')
+
+#Print("Language:\n\t Python\n\tRuby\n")
+
+#repitation operator
+
+print(name*5)
+
+#in and not in operator membership operators
+
+print('H' in name)
+print('p' not in name)
+
+print(name.startswith('H'))
+print(name.endswith('ad'))
+
+number = 100
+type(number)
+id(number)
+#numbers are immutable
+number = number+1
+id(number)
+number +=3 
+print(number)
+
+number = 0x10
+print(number)
+number = 0b1010
+print(number)
+number = 0xff
+print(number)
+
+number = hex(255)
+print(number)
+
+-------------------------------
+
+Control statement
+----------
+
+if true:
+	Print('this is true')
+else
+	Print('this is False')
+
+tab with 4 spaces - indentansion
+
+for char in 'Hariprasad Mandali':
+        print('character is ', char)
+        
+Print('processed the string')
+
+
+character is  H
+
+character is  a
+character is  r
+character is  i
+character is  p
+character is  r
+character is  a
+character is  s
+character is  a
+character is  d
+character is   
+character is  M
+character is  a
+character is  n
+character is  d
+character is  a
+character is  l
+character is  i
+
+
+'''Lists
+Oradered Kist of items
+arbitary objects
+accessed by using offset
+mutable category
+-------------------
+
+subjects = ['Python', 'Ruby', 'c', 100, 'Java']
+
+import copy
+fourthlist=copy.copy(thirdlist)
+fourthlist = thirdlist[:]
+
+
+subject.sort()
+sorted()
+index
+in 
+not in
+
+list comprehension techniques
+[number*number for number in range(10)]
+
+-------------------------------
+
+Dictionary  - un ordered
+
+{x:x **2 for x in range910)} 
+
+>>> {x:x **2 for x in range910)}
+SyntaxError: invalid syntax
+>>> {x:x **2 for x in range(10)}
+{0: 0, 1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64, 9: 81}
+>>> mydict = {x:x **2 for x in range(10)}
+>>> type(my =dict)
+Traceback (most recent call last):
+  File "<pyshell#16>", line 1, in <module>
+    type(my =dict)
+TypeError: type() takes 1 or 3 arguments
+>>> mydict
+{0: 0, 1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64, 9: 81}
+>>> mydict = {ch : ord(ch) for ch in 'spam'}
+>>> mydict
+{'s': 115, 'p': 112, 'a': 97, 'm': 109}
+>>> 
+>>> mydict = {ch : ch.upper() for ch in 'hari' if ch == 'h'}
+>>> mydict
+{'h': 'H'}
+
+Tupples:
+---------
+>>> basket={'app;es','grapes','apples','pear'}
+>>> type(basket)
+<class 'set'>
+>>> basket
+{'pear', 'grapes', 'app;es', 'apples'}
+>>> basket={'apples','grapes','apples','pear'}
+>>> basket
+{'pear', 'grapes', 'apples'}
+>>> 'apples' in basket
+True
+>>> len(basket)
+3
+>>> basket1=set()
+>>> type(basket1)
+<class 'set'>
+>>> myset = set('abracabdavra')
+>>> myset
+{'r', 'v', 'a', 'c', 'b', 'd'}
+>>> myset1 ={'oracle'}
+>>> myset1
+{'oracle'}
+>>> type(myset1)
+<class 'set'>
+>>> 
+>>> myset-myset1
+{'r', 'v', 'a', 'c', 'b', 'd'}
+>>> myset | myset1
+{'r', 'oracle', 'v', 'c', 'a', 'b', 'd'}
+>>> myset & myset1
+set()
+>>> myset ^ myset1 (no commons - excluded commons)
+{'r', 'v', 'a', 'c', 'b', 'oracle', 'd'}
+
+Functions:
+
+Def function_name():
+	statement1...
+>>> def greeting():
+	print("Welcome to Functions!")
+
+	
+>>> dir()
+['__annotations__', '__builtins__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'alist', 'anames', 'atuple', 'basket', 'basket1', 'birthdate', 'birthdays', 'dimen', 'dimensions', 'greeting', 'myset', 'myset1', 'name', 'names']
+>>> dir(greetings)
+Traceback (most recent call last):
+  File "<pyshell#64>", line 1, in <module>
+    dir(greetings)
+NameError: name 'greetings' is not defined
+>>> dir(greeting)
+['__annotations__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__']
+>>> greeting.__doc__
+>>> def greeting():
+	'''This function is about the Greeting the user'''
+	print('Welcome USer')
+
+	
+>>> greeting.__doc__
+'This function is about the Greeting the user'
+>>> def greeting(name):
+	'''this function takes 1 argument'''
+	Print ('Heloo User' + str(name).title())
+
+	
+>>> greeting(Hari)
+Traceback (most recent call last):
+  File "<pyshell#76>", line 1, in <module>
+    greeting(Hari)
+NameError: name 'Hari' is not defined
+>>> greeting('Hari')
+Traceback (most recent call last):
+  File "<pyshell#77>", line 1, in <module>
+    greeting('Hari')
+  File "<pyshell#75>", line 3, in greeting
+    Print ('Heloo User' + str(name).title())
+NameError: name 'Print' is not defined
+>>> greeting('Sai')
+Traceback (most recent call last):
+  File "<pyshell#78>", line 1, in <module>
+    greeting('Sai')
+  File "<pyshell#75>", line 3, in greeting
+    Print ('Heloo User' + str(name).title())
+NameError: name 'Print' is not defined
+>>> def greeting(name):
+	'''this function takes 1 argument'''
+	print ('Heloo User' + str(name).title())
+
+	
+>>> greeting('Hari')
+Heloo UserHari
+>>> help(greeting)
+Help on function greeting in module __main__:
+
+greeting(name)
+    this function takes 1 argument
+
+>>> 
+================== RESTART: C:/Users/hmandali/Functions.py ==================
+Name of the Person :  Oracle
+Age of the Person 12
+Traceback (most recent call last):
+  File "C:/Users/hmandali/Functions.py", line 8, in <module>
+    greeting(12,'xxxx') #passing arguments by Position
+  File "C:/Users/hmandali/Functions.py", line 3, in greeting
+    print ('Name of the Person : ',name.title())
+AttributeError: 'int' object has no attribute 'title'
+>>> 
+================== RESTART: C:/Users/hmandali/Functions.py ==================
+Name of the Person :  oracle
+Age of the Person 12
+Name of the Person :  12
+Age of the Person xxxx
+Name of the Person :  ORACLE
+Age of the Person 12
+Name of the Person :  
+Age of the Person 12
+Name of the Person :  yyyy
+Age of the Person 10
+Name of the Person :  Raj
+Age of the Person 40
+>>> 
+================== RESTART: C:/Users/hmandali/Functions.py ==================
+Name of the Person :  oracle
+Age of the Person 12
+Name of the Person :  12
+Age of the Person xxxx
+Name of the Person :  ORACLE
+Age of the Person 12
+Name of the Person :  
+Age of the Person 12
+Name of the Person :  yyyy
+Age of the Person 10
+Name of the Person :  Raj
+Age of the Person 40
+>>> 
+================= RESTART: C:/Users/hmandali/Functions_2.py =================
+Fomatted name:  Dean c jones
+Fomatted name:  Dean Jones
+>>> formatted name
+SyntaxError: invalid syntax
+>>> format_name
+<function format_name at 0x0337D348>
+>>> help(format_name)
+Help on function format_name in module __main__:
+
+format_name(fname, lname, mname='')
+    this function twill print the formatted name
+
+>>> format_name__main__
+Traceback (most recent call last):
+  File "<pyshell#86>", line 1, in <module>
+    format_name__main__
+NameError: name 'format_name__main__' is not defined
+>>> 
+================= RESTART: C:/Users/hmandali/Functions_2.py =================
+Fomatted name:  Dean c jones
+Fomatted name:  Dean Jones
+this function twill print the formatted name
+>>> 
+================= RESTART: C:/Users/hmandali/Functions_2.py =================
+Fomatted name:  Dean c jones
+Fomatted name:  Dean Jones
+this function twill print the formatted name
+>>> 
+================= RESTART: C:/Users/hmandali/Functions_2.py =================
+Fomatted name:  Dean c jones
+DEAN C JONES
+Fomatted name:  Dean Jones
+DEAN JONES
+this function twill print the formatted name
+--------------------
+
+match - at the begining
+search - anywhere
+
+def find(pat,string):
+	mo = re.search(pat,string)
+	if mo:
+		print('Pattern found', mo.group())
+	else:
+		Print(pattern not found)
+def find(pat,string):
+	mo = re.search(pat,string)
+	if mo:
+		print('Pattern found', mo.group())
+	else:
+		print('pattern not found')
+>>> import re
+>>> find('oracle','this is oraclehyd')
+Pattern found oracle
+>>> find('oracle','this is oracle')
+Pattern found oracle
+>>> find('oracle','this is orac')
+pattern not found
+>>> find('days$',string)
+Traceback (most recent call last):
+  File "<pyshell#8>", line 1, in <module>
+    find('days$',string)
+NameError: name 'string' is not defined
+>>> string = 'this is the python training for five days'
+>>> find('days$',string)
+Pattern found days
+>>> find('^thi',string)
+Pattern found thi
+>>> find('..i',string)
+Pattern found thi
+>>> find('[Tt]rain', string)
+Pattern found train
+>>> find('Five|five',string)
+Pattern found five
+>>> find('(days|DAYS)$',string)
+Pattern found days
+>>> find('[a-z]*',string)
+Pattern found this
+>>> find('.*',string)
+Pattern found this is the python training for five days
+>>> find('.*i',string)
+Pattern found this is the python training for fi
+>>> find('.*o',string)
+Pattern found this is the python training fo
+>>> find('.*?i',string)
+Pattern found thi
+>>> 
+* - zero or any more 
+? - zero or onetime the preceding character.
+>>> find('.M*',string)
+Pattern found t
+>>> find('m*',string)
+Pattern found 
+>>> find('0i',string)
+pattern not found
+>>> find('0?',string)
+Pattern found 
+>>> 
+
+\w  - Word Character - [a-zA-Z0-9_] and \W[^a-zA-Z0-9_]
+\d - digit character[0-9] and \D[^0-9]
+
+------------------------------dil
+File Handling:
+-----------
+
+open(filename,access mode,buffering)
+access mode - default for Reading
+>>> fileobj = open(r'C:\Users\hmandali\Desktop\Python.txt')
+		   
+>>> fileobj.close
+		   
+<built-in method close of _io.TextIOWrapper object at 0x03C98830>
+>>> fileobj.closed
+		   
+False
+>>> fileobj.read
+help(fileobj)
+>>> fileobj = open(r'C:\Users\hmandali\Desktop\Python.txt','r')
+		   
+>>> fileobj.read().split('\n')
+>>> fileobj.tell()
+		   
+11630
+>>> fileobj.tell()
+		   
+11630
+>>> fileobj.seek(0)
+		   
+0
+>>> fileobj.tell()
+		   
+0
+>>> fileobj.read(4)
+		   
+'* Ob'
+
+>>> fileobj.tell()
+		   
+4
+>>> fileobj.seek(0)
+		   
+
+0
+>>> fileobj.readline()
+		   
+'* Object oriented.\n'
+>>> fileobj.tell()
+		   
+20
+>>> fileobj.tell()
+		   
+12415
+>>> fileobj.readlines()
+>>> fileobj.seek(0)
+		   
+0
+>>> fileobj.readline().strip() - removing the leading and triling spaces
+		   
+'* Object oriented.'
+>>> 
+>>> fileobj.close()
+		   
+>>> fileobj.closed
+		   
+True
+
+>>> finput = open('sample.txt')
+	       
+>>> fout = open('sample.txt','a')
+	       
+>>> fout.mode
+	       
+'a'
+>>> fout.write('another line\n')
+	       
+13
+>>> fout.write('end of the text\n)
+	       
+SyntaxError: EOL while scanning string literal
+>>> fout.write('end of the text\n')
+	       
+16
+>>> fout.close
+	       
+<built-in method close of _io.TextIOWrapper object at 0x03C98930>
+>>> fout.close()
+	       
+>>> open('sample.txt').readlines()
+	       
+['this is line\n', 'this is second line\n', 'another line\n', 'end of the text\n']
+>>> finput = open('sample.txt')
+	       
+>>> for line in finput.readlines():
+		       print(line)
+
+	       
+this is line
+
+this is second line
+
+another line
+
+end of the text
+
+>>> for line in finput.readlines():
+	       print(line,)
+
+	       
+>>> finput.seek(0)
+	       
+0
+>>> for line in finput.readlines():
+	       print(line,)
+
+	       
+this is line
+
+this is second line
+
+another line
+
+end of the text
+
+with open(filename) as file_obj:
+statement
+statement
+
+with open(r'C:\Users\hmandali\Desktop\Python.txt') as fileobj:
+	      lines = fileobj.readlines()
+	       for line in lines:
+	       print(lines.strip())
+
+with open(r'C:\Users\hmandali\Desktop\Python.txt') as fileobj:
+	      contents = fileobj.read()
+	      print(contents.rstrip())
+---------------------------------
+Exceptions:
+
+an exception is an event which occures during the execution of the program.
+exceptions are also objects which represents error.
+ 
+list of exceptions:
+
+NameError
+IndentationError
+ZeroDivisonError
+
+try:
+	statements:
+	
+
+catch:
+	statements:
+
+>>> try:
+	print(5/0)
+except:
+	print('you candnot divie')
+
+	
+you candnot divie
+---------------
+
+over ridign methods
+----------------
+
+iterators and generators.
+-------------------------
+Threads and processes
+---------
+
+Process: instance of a program
+Heavy weight process
+
+Each Process has its owen address space, memory, data stack
+
+Threads: light weight processes.
+execute inside the process
+
+share the data stac, and other memory is shared.
+
+multiple threads can be started a inside the processes.
+
+python multi threading. thread and threading.(more primitives)
+
+Race condition: - Deadlock
+single thread process:
